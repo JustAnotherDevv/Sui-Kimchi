@@ -12,6 +12,7 @@
   "type": "module",
   "dependencies": {
     "@mysten/sui": "^1.38.0",
+    "@mysten/walrus": "^0.7.0",
     "@wormhole-foundation/sdk-definitions-ntt": "^3.0.0",
     "@wormhole-foundation/sdk-evm-ntt": "^3.0.0",
     "@wormhole-foundation/sdk-route-ntt": "^3.0.0",
@@ -20,13 +21,16 @@
     "dotenv": "^17.2.2",
     "ethers": "^6.15.0",
     "evm": "link:@wormhole-foundation/sdk/platforms/evm",
+    "express": "^5.1.0",
     "sui": "link:@wormhole-foundation/sdk/platforms/sui"
   },
   "devDependencies": {
+    "@types/express": "^5.0.3",
     "@types/node": "^24.5.2",
     "@wormhole-foundation/sdk": "^3.5.0",
     "@wormhole-foundation/sdk-evm": "^3.5.0",
     "@wormhole-foundation/sdk-solana": "^3.5.0",
+    "ts-node": "^10.9.2",
     "tsx": "^4.20.5",
     "typescript": "^5.9.2"
   }
