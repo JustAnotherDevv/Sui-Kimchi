@@ -1,0 +1,5 @@
+# Sui Move build artifacts
+build/
+
+# Move lock file (can be regenerated)
+Move.lock
