@@ -1,4 +1,4 @@
-# Kimchi
+# Kimchi CMS
 
 Incentivized SocialFi content publishing platform built on sui with Walrus CMS + custom cross-chain publisher that allows anyone to pay for Walrus storage from EVM chain in any token.
 

@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    // es2020 or newer
+    "target": "es2020",
+    // Use esnext if you configured your package.json with type: "module"
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  }
+}
