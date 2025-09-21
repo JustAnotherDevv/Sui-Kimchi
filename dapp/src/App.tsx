@@ -3,6 +3,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
 import Editor from "./components/Editor";
 import Content from "./components/Content";
+import Directory from "./components/Directory";
 
 import "@rainbow-me/rainbowkit/styles.css";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
@@ -25,9 +26,10 @@ function App() {
                     // <div className="w-screen h-screen bg-gray flex justify-center">
                     //   <p className="text-6xl mt-24 font-thin">DomainFi</p>
                     // </div>
-                    <Editor />
+                    <Directory />
                   }
                 />
+                <Route path="/editor" element={<Editor />} />
                 <Route path="/content/:blobid" element={<Content />} />
               </Routes>
             </main>
